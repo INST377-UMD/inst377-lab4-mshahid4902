@@ -1,0 +1,61 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+    background-color: lightblue; 
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Main container: holds two column containers side by side */
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Space between the two columns */
+    margin-top: 20px;
+}
+
+/* Column container: stacks its child sections vertically */
+.column-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between sections in each column */
+}
+
+/* Section styling */
+.section {
+    background-color: purple;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 300px; /* Consistent section width */
+}
+
+/* Form elements */
+form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Buttons */
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    padding: 5px;
+}
